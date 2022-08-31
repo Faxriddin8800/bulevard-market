@@ -1,0 +1,114 @@
+@media(max-width:1122px){
+    .airpods{
+        flex-direction: column;
+    }
+}
+@media(max-width:1085px){
+    .iphones{
+        column-gap: 20px;
+    }
+}
+@media(max-width:885px){
+    .airpods__big{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+    .airpods__item-text{
+        padding-bottom: 30px;
+    }
+    .iphones{
+       flex-direction: column;
+       align-items: center;
+       row-gap: 30px; 
+    }
+}
+@media(max-width:665px){
+    h1{
+        font-size: 70px;
+        line-height: 30px;
+    }
+}
+@media(max-width:555px){
+    .airpods__item-text{
+        width: 390px;
+    }
+    .footer__nav{
+     flex-direction: column;   
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer__list{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .menu__btn{
+        display: block;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .header__list{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 15px;
+        padding-top: 15px;
+        row-gap: 15px;
+        backdrop-filter: blur(18px);
+        height: 100vh;
+        box-shadow: -1px 1px 16px 0px rgba(0, 0, 0, 0.534);
+        transform: translateX(105%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 0.3s linear;
+    }
+    .menu__btn:focus+.header__list{
+        transform: translateX(0%);
+    }
+}
+@media(max-width:464px){
+    h1{
+        font-size: 50px;
+        line-height: 20px;
+    }
+    
+    .header__link{
+        font-size: 15px;
+        line-height: 19px;
+        padding: 9px 12px;
+    }
+}
+@media(max-width:410px){
+    .airpods__item-text{
+      max-width: 300px;
+      width: 100%;
+    }
+}
+@media(max-width:362px){
+    .airpods__left,
+    .airpods__right{
+        max-width: 290px;
+        width: 100%;
+    }
+}
+@media(max-width:330px){
+    h1{
+        font-size: 40px;
+        line-height: 15px;
+    }
+    .airpods__left p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .airpods__right p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .airpods__item-text p{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+      }
+}
+  
